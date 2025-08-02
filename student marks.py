@@ -6,7 +6,7 @@ student = {'Amit':92, 'Abhishek':89, 'Alice':85,
 
 Name = input("Enter the student's name: ")
 if Name in student:
-    print(student[Name])
+    print(Name + "'s marks:",student[Name])
 
 else:
     print("Student not found.")
